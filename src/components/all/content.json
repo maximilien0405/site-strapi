@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_all_contents",
+  "info": {
+    "displayName": "Content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "number": {
+      "type": "integer"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "url": {
+      "type": "string"
+    },
+    "noimage": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
